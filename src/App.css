@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+.bg-style {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 0, 0, 0.418)), url("https://signal-air-radio-station.netlify.app/static/media/Bannar-1.ad4c5bc7616cca7a5250.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
