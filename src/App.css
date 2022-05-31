@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background-color: #000000b8;
+}
+
 .bg-style {
   background-image: linear-gradient(rgba(0, 0, 0, 0.474), rgba(0, 0, 0, 0.559)), url("https://signal-air-radio-station.netlify.app/static/media/Bannar-1.ad4c5bc7616cca7a5250.jpg");
   background-repeat: no-repeat;
@@ -24,4 +36,8 @@
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
+}
+
+.swiper-pagination-bullet-active {
+  background: #F97316 !important;
 }
