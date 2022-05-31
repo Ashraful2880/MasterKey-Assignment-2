@@ -44,6 +44,16 @@ const Header = () => {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/service" className="block py-1 text-white text-lg border-y-2 border-y-transparent hover:border-orange-600 hover:text-orange-600 px-2 duration-500 focus:border-y-orange-600 focus:text-orange-600 mx-2">
+                                Products & Services
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/client" className="block py-1 text-white text-lg border-y-2 border-y-transparent hover:border-orange-600 hover:text-orange-600 px-2 duration-500 focus:border-y-orange-600 focus:text-orange-600 mx-2">
+                                Become a Client
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/contact" className="block py-1 text-white text-lg border-y-2 border-y-transparent hover:border-orange-600 hover:text-orange-600 px-2 duration-500 focus:border-y-orange-600 focus:text-orange-600 mx-2">
                                 Contact
                             </Link>

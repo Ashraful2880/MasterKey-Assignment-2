@@ -25,7 +25,7 @@ const Team = () => {
                 }}
                 modules={[FreeMode, Pagination, Autoplay]}
                 centeredSlides={true}
-                autoplay={{ delay: 9500, disableOnInteraction: false, }}
+                autoplay={{ delay: 2500, disableOnInteraction: false, }}
                 navigation={true}
                 breakpoints={{
                     300: {

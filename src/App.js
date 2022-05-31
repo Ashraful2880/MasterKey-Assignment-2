@@ -1,11 +1,13 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Component/About/About';
+import BecomeClient from './Component/BecomeClient/BecomeClient';
 import Contact from './Component/Contact/Contact';
 import ErrorPage from './Component/ErrorPage/ErrorPage';
 import Home from './Component/Home/Home/Home';
 import Login from './Component/Login/Login';
 import Register from './Component/Register/Register';
+import Service from './Component/Service/Service';
 import Footer from './Component/Shared/Footer/Footer';
 import Header from './Component/Shared/Header/Header';
 
@@ -19,6 +21,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/service' element={<Service />} />
+          <Route path='/client' element={<BecomeClient />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/register' element={<Register />} />
           <Route path='/login' element={<Login />} />
