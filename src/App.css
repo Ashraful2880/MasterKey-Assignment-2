@@ -9,3 +9,19 @@
   background-position: top;
   background-attachment: fixed;
 }
+
+.register-style {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.542), rgba(0, 0, 0, 0.611)), url("https://signal-air-radio-station.netlify.app/static/media/Bannar-2.e5a5c5c8e89a8ac2ca3d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.login-style {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.474), rgba(0, 0, 0, 0.559)), url("https://signal-air-radio-station.netlify.app/static/media/Bannar-3.24b0e6684f95e593c830.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
