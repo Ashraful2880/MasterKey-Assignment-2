@@ -19,11 +19,11 @@ const Header = () => {
                 <Link to="/home" className='flex items-center'>
                     <img src={logo} className="mr-3 h-9 w-9 sm:h-9 rounded-full" alt="Main Logo" />
                     <p className="self-center text-xl text-white font-semibold whitespace-nowrap">
-                        <span className="text-orange-500">M</span>r <span className="text-orange-500">M</span>odernistic
+                        <span className="text-orange-600">M</span>r <span className="text-orange-600">M</span>odernistic
                     </p>
                 </Link>
                 <div className="flex md:order-2">
-                    <Link to="/dashboard/myProfile">
+                    <Link to="/">
                         <img src="https://avatars.githubusercontent.com/u/86690202?v=4" alt="userImage" className="w-10 h-10 rounded-full border border-orange-500" />
                     </Link>
                     <button onClick={toogleMenu} type="button" className="inline-flex items-center p-2 text-sm text-white rounded-lg md:hidden hover:bg-orange-600 focus:outline-none focus:ring-0 ml-4">
