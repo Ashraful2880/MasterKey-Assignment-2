@@ -4,7 +4,7 @@ import logo from "../../Images/Main-Logo.png";
 
 const Register = () => {
     return (
-        <div className="register-style">
+        <div className="register-style h-[90vh]">
             <div className="container mx-auto">
                 <div className="w-[50%] rounded-md py-10 mx-auto">
                     <img className="w-20 mx-auto" src={logo} alt="logo" />

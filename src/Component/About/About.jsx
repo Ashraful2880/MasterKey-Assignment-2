@@ -1,10 +1,11 @@
 import React from 'react';
+import Partners from './Partners';
 
 const About = () => {
     return (
-        <div>
-            This is About Page
-        </div>
+        <>
+            <Partners />
+        </>
     );
 };
 
